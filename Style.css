@@ -188,3 +188,30 @@ header{
     margin-top: 1px;
     color: gray;
 }
+
+.our-company{
+    text-align: center;
+    margin-top: 80px;
+}
+.our-company p{
+    font-size: 15px;
+    color: gray;
+}
+.company-name{
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+.company-name img{
+    margin-right: 70px;
+    margin-top: 20px;
+    width: 150px;
+}
+
+/* this is footer style design */
+.footer{
+    width: 500px;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 50px auto;
+    text-align: center;
+}
