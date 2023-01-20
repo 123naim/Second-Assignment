@@ -135,7 +135,6 @@ header{
 .experience{
     margin-left: 605px;
     margin-top: -30px;
-    margin-bottom: 50px;
     padding: 20px;
     width: 150px;
     background-color: rgb(2, 243, 211);
@@ -145,4 +144,47 @@ header{
 .experience .year{
     font-size: 20px;
     font-weight: 800;
+}
+
+.some-facts{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.some-facts h2{
+    font-size: 25px;
+    font-weight: 800;
+}
+.some-facts p{
+    font-size: 16px;
+    color: gray;
+}
+
+
+.work-review{
+     display: flex;
+     margin-left: 150px;
+     gap: 120px;
+}
+.work-name{
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.2);
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    /* border: 2px solid #FF900E; */
+    
+}
+.work-name img{
+    padding-top: 20px;
+    width: 50px;
+    height: 50px;
+}
+.work-name h2{
+    margin-top: 10px;
+    color: gray;
+}
+.work-name p{
+    margin-top: 1px;
+    color: gray;
 }
