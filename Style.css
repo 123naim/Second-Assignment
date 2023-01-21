@@ -47,7 +47,7 @@ header{
     margin-top: 10px;
     margin-bottom: 25px;
     padding: 15px;
-    background-color : rgb(2, 243, 211);
+    background-color : #FF900E;
     border-radius: 15px;
     color: black;
     font-weight: bold;
@@ -61,6 +61,7 @@ header{
 
 /* this is main section style */
 
+/* quick list style start */
 .quick-list{
     display: flex;
     margin: 50px 220px 40px;
@@ -86,13 +87,14 @@ header{
     font-size: 24px;
 }
 .quick-list-text h2 span{
-    color: rgb(2, 243, 211);
+    color:#FF900E;
 }
 .quick-list-text p{
     color: gray;
 }
-/* this is features style section */
+/* quick list style end */
 
+/* this is features style section start */
 .features-section{
     display: flex;
     margin-left: 100px;
@@ -132,12 +134,15 @@ header{
     width: 600px;
     height: 780px;
 }
+/* this is features style section end */
+
+
 .experience{
     margin-left: 605px;
     margin-top: -30px;
     padding: 20px;
     width: 150px;
-    background-color: rgb(2, 243, 211);
+    background-color:#FF900E;
     border: none;
     border-radius: 15px;
 }
@@ -160,6 +165,7 @@ header{
 }
 
 
+/* work review section start here */
 .work-review{
      display: flex;
      margin-left: 150px;
@@ -172,8 +178,7 @@ header{
     width: 150px;
     height: 150px;
     padding: 10px;
-    /* border: 2px solid #FF900E; */
-    
+    border-radius: 5px;
 }
 .work-name img{
     padding-top: 20px;
@@ -188,6 +193,7 @@ header{
     margin-top: 1px;
     color: gray;
 }
+/* work review section end here */
 
 .our-company{
     text-align: center;
@@ -214,4 +220,9 @@ header{
     padding: 10px;
     margin: 50px auto;
     text-align: center;
+    border-radius: 10px;
+}
+
+.hide{
+    display: none;
 }
